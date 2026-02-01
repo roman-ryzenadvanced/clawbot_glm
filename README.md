@@ -1,7 +1,7 @@
 # OpenClaw x Z.AI Integration Guide [ [Credit: cobrax91310 on Discord | Z.AI Community]](https://discord.com/channels/1346756824233148527/1442045587460722768/1467513064713621678)
 
 [More information about Z.AI GLM 4.7 coding model and 10% off token [here]](https://z.ai/subscribe?ic=R0K78RJKNW)
-
+##
 This guide provides a structured walkthrough for setting up OpenClaw with Z.AI (GLM 4.7). Please note that this installation involves executing a remote script, which presents security considerations that you should evaluate before proceeding.
 
 ## ⚠️ Security Warning
