@@ -107,3 +107,14 @@ Feel free to submit issues or pull requests to improve this guide.
 ## License
 
 See the LICENSE file for licensing information.
+
+
+⚠️ SPECIAL COMMENT: SECURITY CRITICAL
+Do NOT use the default port (18789).
+
+You noted that many hosts deploy OpenClaw on a VPS with the default port and zero additional security. You are right to be skeptical of the default config. Scrapers and script kiddies scan known default ports constantly.
+
+The Risk: If you leave port 18789 open on a public VPS, you are effectively inviting hackers to hijack your bot interface.
+
+
+The Fix: Change the port during the "Gateway port" setup step  to something random (e.g., 45912) and ensure your firewall only allows traffic from trusted IPs (or use a VPN/Tailscale).
